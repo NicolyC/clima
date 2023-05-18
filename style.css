@@ -105,3 +105,9 @@ margin-top: -6px;
   margin-top: 10px;
   display: none;
 }
+
+.error img{
+width: 16px;
+margin-bottom: -1.5px;
+display: inline;
+}

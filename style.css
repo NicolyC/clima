@@ -100,7 +100,7 @@ margin-top: -6px;
 
 .error{
   text-align: left;
-  margin-left: 10px;
+  margin-left: 12px;
   font-size: 14px;
   margin-top: 10px;
   display: none;
@@ -111,3 +111,35 @@ width: 16px;
 margin-bottom: -1.5px;
 display: inline;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media ( max-width: 480px ) {
+
+.search input {
+  width: 50%;
+}
+
+}
+
+@media (max-width: 75vh) {
+
+.details .col {
+width: 30%;
+
+  }
+  .details .col p{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .details {
+    flex-direction: column;
+  }
+  .details .col {
+    margin-top: 10px;
+  }
+  }
+  
